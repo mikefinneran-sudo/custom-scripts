@@ -408,7 +408,6 @@ MIT License - Free to use and modify
 ## 🔗 Related Projects
 
 - **ObsidianVault** - https://github.com/mikefinneran-sudo/obsidian-vault
-- **ScrapeMaster** - https://github.com/mikefinneran-sudo/scrapemaster
 - **Ivy League AI Education** - https://github.com/mikefinneran-sudo/ivy-league-ai-education
 
 ---

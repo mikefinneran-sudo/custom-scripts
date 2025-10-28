@@ -346,7 +346,6 @@ MIT License - Free to use and modify
 
 ## Related Tools
 
-- **ScrapeMaster** - Web scraping for business data
 - **Utilities** - Other automation scripts
 
 ---
