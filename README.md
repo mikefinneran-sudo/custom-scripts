@@ -6,6 +6,15 @@
 
 ## 📁 Contents
 
+### 🎯 ObsidianVault Automation (NEW!)
+**Complete automation toolkit for personal knowledge management**
+- **22 scripts** - Daily notes, metrics, integrations, screenshots
+- **7 Alfred workflows** - Quick vault access via launcher
+- **1 MCP server** - AI-powered research with Perplexity Pro
+- **13+ docs** - Complete setup and reference guides
+
+👉 **[See obsidian-automation/ directory](./obsidian-automation/README.md)** for full documentation
+
 ### Gmail Tools
 - **amazon_parser** - Parse Amazon order confirmations from Gmail
 - Extract order details, prices, delivery dates
@@ -33,6 +42,14 @@ Each script has its own README with:
 ## 📚 Documentation
 
 ### By Category
+
+**Obsidian Automation:**
+- `obsidian-automation/` - Complete automation toolkit
+  - 📖 [Main README](./obsidian-automation/README.md)
+  - 📖 [Scripts Reference](./obsidian-automation/docs/SCRIPTS-README.md)
+  - 📖 [Quick Index](./obsidian-automation/docs/INDEX.md)
+  - 📖 [Contributing Guide](./obsidian-automation/docs/CONTRIBUTING.md)
+  - 📖 [Alfred Workflows](./obsidian-automation/docs/ALFRED-README.md)
 
 **Email Automation:**
 - `gmail/amazon_parser/` - Amazon order tracking
@@ -189,6 +206,50 @@ MIT License - Free to use and modify
 
 ## 📊 Script Index
 
+### Obsidian Automation (22 scripts)
+
+**Daily Automation (4 scripts)**
+- `create_daily_note_enhanced.sh` - Create comprehensive daily notes
+- `create_weekly_review_enhanced.sh` - Generate weekly reviews
+- `update_daily_note.py` - Auto-update notes with project priorities
+- `create_flyflat_update.sh` - FlyFlat project updates
+
+**Integrations (5 scripts)**
+- `sync_to_notion.py` - Sync vault to Notion databases
+- `sync_calendar.py` - Sync Google Calendar to daily notes
+- `sync_gmail.py` - Sync Gmail inbox to vault
+- `setup-notion-sync.sh` - Notion setup wizard
+- `oauth_server.py` - OAuth callback server
+
+**Screenshots (4 scripts)**
+- `capture-screenshot.sh` - Screenshot to vault with CleanShot X
+- `daily-screenshot.sh` - Screenshot to daily attachments
+- `project-screenshot.sh` - Project-specific screenshots
+- `ocr-to-daily.sh` - OCR screenshots to text
+
+**Setup & Utilities (6 scripts)**
+- `setup-integrations.sh` - Master setup script
+- `setup_wizard.py` - Interactive setup wizard
+- `get-api-key.sh` - Retrieve API keys from 1Password
+- `open-vault.sh` - Open vault in Obsidian
+- `update_metrics.py` - Track revenue & activities
+- `sync-documents-to-gdrive.sh` - Backup to Google Drive
+
+**Project Scripts (3 scripts)**
+- `waltersignal_education.py` - WalterSignal automation
+- `web_dev_education.py` - Web dev content generation
+- `create-utm-vm.applescript` - Create UTM VMs
+
+**Alfred Workflows (7 scripts)**
+- Full vault control via Alfred launcher
+- See [Alfred README](./obsidian-automation/docs/ALFRED-README.md)
+
+**MCP Servers (1 server)**
+- `perplexity-research` - AI research with Perplexity Pro
+- **Status:** ✅ Active
+
+---
+
 ### Gmail Tools
 
 **amazon_parser**
@@ -211,21 +272,14 @@ MIT License - Free to use and modify
 - **Output:** Backup in iCloud
 - **Status:** ✅ Active
 
-### Data Processing
-
-(Coming soon)
-
-### Automation
-
-(Coming soon)
-
 ---
 
 ## 🛠️ Maintenance
 
-**Last Updated:** October 18, 2025
-**Scripts:** 3 active
-**Categories:** 2 (Gmail, Files)
+**Last Updated:** October 28, 2025
+**Scripts:** 25+ active
+**Categories:** 4 (Obsidian Automation, Gmail, Files, Data)
+**Lines of Code:** 4,000+
 
 ---
 
