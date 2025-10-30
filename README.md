@@ -84,7 +84,7 @@ chmod +x script_name.sh
 
 ### Clone the repo
 ```bash
-git clone https://github.com/mikefinneran-sudo/utilities.git
+git clone https://github.com/username-sudo/utilities.git
 cd utilities
 ```
 
@@ -199,7 +199,7 @@ MIT License - Free to use and modify
 
 ## 🔗 Related Projects
 
-- **Ivy League AI Education** - https://github.com/mikefinneran-sudo/ivy-league-ai-education
+- **Ivy League AI Education** - https://github.com/username-sudo/ivy-league-ai-education
 
 ---
 
@@ -211,7 +211,7 @@ MIT License - Free to use and modify
 - `create_daily_note_enhanced.sh` - Create comprehensive daily notes
 - `create_weekly_review_enhanced.sh` - Generate weekly reviews
 - `update_daily_note.py` - Auto-update notes with project priorities
-- `create_flyflat_update.sh` - FlyFlat project updates
+- `create_client_update.sh` - ClientProject project updates
 
 **Integrations (5 scripts)**
 - `sync_to_notion.py` - Sync vault to Notion databases

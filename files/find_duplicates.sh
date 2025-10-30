@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Find and report duplicate files in Google Drive Documents
-DOCS_PATH="/Users/mikefinneran/Library/CloudStorage/GoogleDrive-mike@fly-flat.com/My Drive/Documents"
+DOCS_PATH="/Users/username/Library/CloudStorage/GoogleDrive-email@domain.com/My Drive/Documents"
 TEMP_FILE="/tmp/file_hashes.txt"
 DUPLICATES_FILE="/tmp/duplicates.txt"
 

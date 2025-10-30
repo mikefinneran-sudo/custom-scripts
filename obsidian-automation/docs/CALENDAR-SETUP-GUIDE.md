@@ -58,7 +58,7 @@ pip3 install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 goo
 6. Name: **LifeHub Calendar**
 7. Click **"Create"**
 8. **Download JSON** file
-9. Save as: `/Users/mikefinneran/Documents/ObsidianVault/.scripts/credentials-calendar.json`
+9. Save as: `/Users/username/Documents/ObsidianVault/.scripts/credentials-calendar.json`
 
 **If using same project as Gmail:**
 - You can reuse the same credentials file
@@ -141,14 +141,14 @@ cat > ~/Library/LaunchAgents/com.lifehub.calendar-sync.plist << 'EOF'
     <key>ProgramArguments</key>
     <array>
         <string>python3</string>
-        <string>/Users/mikefinneran/Documents/ObsidianVault/.scripts/sync_calendar.py</string>
+        <string>/Users/username/Documents/ObsidianVault/.scripts/sync_calendar.py</string>
     </array>
     <key>StartInterval</key>
     <integer>3600</integer>
     <key>StandardOutPath</key>
-    <string>/Users/mikefinneran/Documents/ObsidianVault/.scripts/calendar-sync.log</string>
+    <string>/Users/username/Documents/ObsidianVault/.scripts/calendar-sync.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/mikefinneran/Documents/ObsidianVault/.scripts/calendar-sync-error.log</string>
+    <string>/Users/username/Documents/ObsidianVault/.scripts/calendar-sync-error.log</string>
 </dict>
 </plist>
 EOF

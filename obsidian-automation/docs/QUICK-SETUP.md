@@ -12,7 +12,7 @@
 - Settings → Shell commands → New shell command
 - **Command:**
   ```
-  python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+  python3 /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
   ```
 - **Alias:** Update Daily Note
 - **Event:** Enable "Vault: After startup" ✓

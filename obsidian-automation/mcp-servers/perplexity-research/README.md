@@ -44,7 +44,7 @@
 ### Step 2: Install Dependencies
 
 ```bash
-cd /Users/mikefinneran/Documents/ObsidianVault/.mcp/perplexity-research
+cd /Users/username/Documents/ObsidianVault/.mcp/perplexity-research
 pip3 install -r requirements.txt
 ```
 
@@ -69,7 +69,7 @@ echo "PERPLEXITY_API_KEY=pplx-xxxxxxxxxxxxx" > .env
 ### Step 4: Make Server Executable
 
 ```bash
-chmod +x /Users/mikefinneran/Documents/ObsidianVault/.mcp/perplexity-research/server.py
+chmod +x /Users/username/Documents/ObsidianVault/.mcp/perplexity-research/server.py
 ```
 
 ### Step 5: Configure Claude Code
@@ -84,7 +84,7 @@ Add to your Claude Code MCP settings:
     "perplexity-research": {
       "command": "python3",
       "args": [
-        "/Users/mikefinneran/Documents/ObsidianVault/.mcp/perplexity-research/server.py"
+        "/Users/username/Documents/ObsidianVault/.mcp/perplexity-research/server.py"
       ],
       "env": {
         "PERPLEXITY_API_KEY": "pplx-xxxxxxxxxxxxx"
@@ -102,7 +102,7 @@ Add to your Claude Code MCP settings:
     "perplexity-research": {
       "command": "python3",
       "args": [
-        "/Users/mikefinneran/Documents/ObsidianVault/.mcp/perplexity-research/server.py"
+        "/Users/username/Documents/ObsidianVault/.mcp/perplexity-research/server.py"
       ]
     }
   }

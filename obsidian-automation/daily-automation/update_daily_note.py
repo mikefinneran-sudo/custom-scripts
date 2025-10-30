@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-VAULT_PATH = Path("/Users/mikefinneran/Documents/ObsidianVault")
+VAULT_PATH = Path("/Users/username/Documents/ObsidianVault")
 DAILY_PATH = VAULT_PATH / "Daily"
 PROJECTS_PATH = VAULT_PATH / "Projects"
 STATE_FILE = VAULT_PATH / ".scripts" / "daily_note_state.json"

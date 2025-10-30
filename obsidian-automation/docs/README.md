@@ -7,7 +7,7 @@ This directory contains 22 custom scripts and 6 Alfred workflows that power auto
 **Author:** Mike Finneran
 **Last Updated:** 2025-10-28
 **Vault:** ObsidianVault
-**Git Repository:** https://github.com/mikefinneran-sudo/obsidian-vault
+**Git Repository:** https://github.com/username-sudo/obsidian-vault
 
 ---
 
@@ -147,8 +147,8 @@ python3 sync_to_notion.py --dry-run    # Test without syncing
 
 **Setup Guides:**
 - `.scripts/NOTION-SETUP-GUIDE.md`
-- `.scripts/FLYFLAT-NOTION-SETUP.md`
-- `.scripts/FLYFLAT-NOTION-QUICK-SETUP.md`
+- `.scripts/CLIENT-NOTION-SETUP.md`
+- `.scripts/CLIENT-NOTION-QUICK-SETUP.md`
 
 **Location:** `.scripts/sync_to_notion.py:1`
 
@@ -374,19 +374,19 @@ python3 oauth_server.py
 
 ### 7. Project-Specific Scripts
 
-#### `create_flyflat_update.sh`
-**Purpose:** Creates FlyFlat project update notes
+#### `create_client_update.sh`
+**Purpose:** Creates ClientProject project update notes
 **Features:**
-- Generates weekly FlyFlat status updates
+- Generates weekly ClientProject status updates
 - Links to Notion databases
 - Structured update template
 
 **Usage:**
 ```bash
-./create_flyflat_update.sh
+./create_client_update.sh
 ```
 
-**Location:** `.scripts/create_flyflat_update.sh:1`
+**Location:** `.scripts/create_client_update.sh:1`
 
 ---
 
@@ -552,8 +552,8 @@ Comprehensive setup documentation is available:
 | `QUICK-SETUP.md` | Fast 5-minute setup for core features |
 | `DAILY_NOTE_AUTOMATION_SETUP.md` | Daily note automation with Shell Commands plugin |
 | `NOTION-SETUP-GUIDE.md` | Notion integration setup |
-| `FLYFLAT-NOTION-SETUP.md` | FlyFlat-specific Notion setup |
-| `FLYFLAT-NOTION-QUICK-SETUP.md` | Quick FlyFlat Notion integration |
+| `CLIENT-NOTION-SETUP.md` | ClientProject-specific Notion setup |
+| `CLIENT-NOTION-QUICK-SETUP.md` | Quick ClientProject Notion integration |
 | `CALENDAR-SETUP-GUIDE.md` | Google Calendar integration |
 | `GMAIL-SETUP-GUIDE.md` | Gmail integration |
 | `SHELL-COMMANDS-SETUP-GUIDE.md` | Obsidian Shell Commands plugin config |
@@ -650,7 +650,7 @@ obs-metrics        # Update revenue metrics
 
 ## 📦 Git Repository
 
-**Repository:** https://github.com/mikefinneran-sudo/obsidian-vault
+**Repository:** https://github.com/username-sudo/obsidian-vault
 **Branch:** main
 **Private:** Yes (contains personal data)
 
@@ -755,7 +755,7 @@ For issues or questions:
 - Enhanced setup guides
 
 **v1.5** - 2025-10-27
-- Added FlyFlat project scripts
+- Added ClientProject project scripts
 - Enhanced Alfred workflows
 - Improved error handling
 

@@ -5,7 +5,7 @@
 
 source ~/.zshrc
 
-VAULT="/Users/mikefinneran/Documents/ObsidianVault"
+VAULT="/Users/username/Documents/ObsidianVault"
 TITLE="{query}"
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M)

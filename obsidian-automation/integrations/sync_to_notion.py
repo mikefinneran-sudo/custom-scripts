@@ -30,7 +30,7 @@ except ImportError:
     sys.exit(1)
 
 # Configuration
-VAULT_PATH = Path("/Users/mikefinneran/Documents/ObsidianVault")
+VAULT_PATH = Path("/Users/username/Documents/ObsidianVault")
 TOKEN_FILE = Path.home() / ".lifehub-notion-token"
 CONFIG_FILE = VAULT_PATH / ".scripts" / "notion-sync-config.json"
 LOG_FILE = VAULT_PATH / ".scripts" / "notion-sync.log"

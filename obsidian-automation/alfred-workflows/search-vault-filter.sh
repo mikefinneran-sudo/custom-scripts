@@ -4,7 +4,7 @@
 
 source ~/.zshrc
 
-VAULT="/Users/mikefinneran/Documents/ObsidianVault"
+VAULT="/Users/username/Documents/ObsidianVault"
 QUERY="{query}"
 
 # Find matching notes

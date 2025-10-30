@@ -15,7 +15,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 # Vault directory
-VAULT_DIR="/Users/mikefinneran/Documents/ObsidianVault"
+VAULT_DIR="/Users/username/Documents/ObsidianVault"
 SCRIPTS_DIR="${VAULT_DIR}/.scripts"
 
 echo -e "${BLUE}╔════════════════════════════════════════════════════════╗${NC}"

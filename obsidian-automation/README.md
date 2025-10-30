@@ -10,7 +10,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/mikefinneran-sudo/custom-scripts.git
+git clone https://github.com/username-sudo/custom-scripts.git
 cd custom-scripts/obsidian-automation
 
 # Most common scripts
@@ -49,7 +49,7 @@ obsidian-automation/
 | `create_daily_note_enhanced.sh` | Creates comprehensive daily notes with structured templates |
 | `create_weekly_review_enhanced.sh` | Generates weekly review notes for reflection |
 | `update_daily_note.py` | Auto-updates daily notes with project priorities |
-| `create_flyflat_update.sh` | Creates FlyFlat project update notes |
+| `create_client_update.sh` | Creates client project update notes |
 
 **Quick Use:**
 ```bash
@@ -374,7 +374,7 @@ These scripts are designed for ObsidianVault but can be adapted:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/mikefinneran-sudo/custom-scripts.git
+   git clone https://github.com/username-sudo/custom-scripts.git
    ```
 
 2. **Update paths in scripts**
@@ -407,8 +407,8 @@ MIT License - Free to use and modify
 
 ## 🔗 Related Projects
 
-- **ObsidianVault** - https://github.com/mikefinneran-sudo/obsidian-vault
-- **Ivy League AI Education** - https://github.com/mikefinneran-sudo/ivy-league-ai-education
+- **ObsidianVault** - https://github.com/username-sudo/obsidian-vault
+- **Ivy League AI Education** - https://github.com/username-sudo/ivy-league-ai-education
 
 ---
 
@@ -425,4 +425,4 @@ For detailed documentation on each script:
 **Last Updated:** 2025-10-28
 **Version:** 2.0
 **Author:** Mike Finneran
-**Repository:** https://github.com/mikefinneran-sudo/custom-scripts
+**Repository:** https://github.com/username-sudo/custom-scripts

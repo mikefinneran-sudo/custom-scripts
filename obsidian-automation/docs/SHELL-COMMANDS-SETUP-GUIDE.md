@@ -55,7 +55,7 @@
 3. **Enter the Command**
    - In the **"Shell command"** text field, paste this EXACT text:
    ```
-   python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+   python3 /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
    ```
    - Make sure there are no extra spaces or line breaks
 
@@ -181,7 +181,7 @@ which python3
 
 # Copy the full path (e.g., /usr/local/bin/python3)
 # Update command to use that path:
-/usr/local/bin/python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+/usr/local/bin/python3 /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 ```
 
 ### No notification appears
@@ -199,7 +199,7 @@ which python3
 3. Verify daily note exists in `Daily/` folder
 4. Check state file:
    ```bash
-   cat /Users/mikefinneran/Documents/ObsidianVault/.scripts/daily_note_state.json
+   cat /Users/username/Documents/ObsidianVault/.scripts/daily_note_state.json
    ```
 
 ### Updates happen twice
@@ -213,7 +213,7 @@ which python3
 
 **Fix:** Make script executable
 ```bash
-chmod +x /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+chmod +x /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 ```
 
 ---
@@ -236,10 +236,10 @@ chmod +x /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.
 Edit the Python script:
 ```bash
 # Open in your editor:
-code /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+code /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 
 # Or use nano:
-nano /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+nano /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 ```
 
 **Key functions to customize:**
@@ -253,7 +253,7 @@ Currently tracks:
 - WalterSignal/WalterFetch
 - LifeHub
 
-To add FlyFlat or other projects, edit `get_project_tasks()` function.
+To add ClientProject or other projects, edit `get_project_tasks()` function.
 
 ---
 
@@ -262,7 +262,7 @@ To add FlyFlat or other projects, edit `get_project_tasks()` function.
 ### Check Last Update
 
 ```bash
-cat /Users/mikefinneran/Documents/ObsidianVault/.scripts/daily_note_state.json
+cat /Users/username/Documents/ObsidianVault/.scripts/daily_note_state.json
 ```
 
 Shows:
@@ -274,7 +274,7 @@ Shows:
 
 ```bash
 # Delete state file to force update:
-rm /Users/mikefinneran/Documents/ObsidianVault/.scripts/daily_note_state.json
+rm /Users/username/Documents/ObsidianVault/.scripts/daily_note_state.json
 
 # Then reopen Obsidian
 ```

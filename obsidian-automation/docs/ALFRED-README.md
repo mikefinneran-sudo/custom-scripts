@@ -103,7 +103,7 @@ If you prefer to create workflows manually, follow these instructions:
 ```bash
 source ~/.zshrc
 
-VAULT="/Users/mikefinneran/Documents/ObsidianVault"
+VAULT="/Users/username/Documents/ObsidianVault"
 
 case "{query}" in
     "Open Vault")
@@ -241,7 +241,7 @@ fi
 ```bash
 source ~/.zshrc
 
-VAULT="/Users/mikefinneran/Documents/ObsidianVault"
+VAULT="/Users/username/Documents/ObsidianVault"
 TITLE="{query}"
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M)
@@ -286,7 +286,7 @@ echo "Created: ${FILENAME}"
 ```bash
 source ~/.zshrc
 
-VAULT="/Users/mikefinneran/Documents/ObsidianVault"
+VAULT="/Users/username/Documents/ObsidianVault"
 QUERY="{query}"
 
 # Find matching notes

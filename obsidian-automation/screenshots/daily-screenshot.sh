@@ -4,7 +4,7 @@
 
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H-%M-%S)
-DAILY_DIR="/Users/mikefinneran/Documents/ObsidianVault/Daily/attachments"
+DAILY_DIR="/Users/username/Documents/ObsidianVault/Daily/attachments"
 FILENAME="${DATE}_screenshot_${TIME}.png"
 
 # Ensure directory exists
@@ -20,7 +20,7 @@ echo "   File: ${FILENAME}"
 sleep 2
 
 # Append to today's daily note
-DAILY_NOTE="/Users/mikefinneran/Documents/ObsidianVault/Daily/${DATE}.md"
+DAILY_NOTE="/Users/username/Documents/ObsidianVault/Daily/${DATE}.md"
 if [ -f "$DAILY_NOTE" ]; then
     echo "" >> "$DAILY_NOTE"
     echo "## Screenshot - ${TIME//-/:}" >> "$DAILY_NOTE"

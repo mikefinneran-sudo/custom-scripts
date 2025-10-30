@@ -3,7 +3,7 @@
 
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M)
-DAILY_NOTE="/Users/mikefinneran/Documents/ObsidianVault/Daily/${DATE}.md"
+DAILY_NOTE="/Users/username/Documents/ObsidianVault/Daily/${DATE}.md"
 
 echo "📸 Starting OCR capture..."
 echo "   Select the area with text to extract"

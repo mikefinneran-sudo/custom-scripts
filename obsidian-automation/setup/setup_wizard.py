@@ -58,7 +58,7 @@ def check_oauth_config():
         print("Please follow setup instructions:")
         print("1. Get OAuth credentials from Google Cloud Console")
         print("2. Update OAUTH_CONFIG in setup_wizard.py")
-        print("\nSee: /Users/mikefinneran/Documents/ObsidianVault/Resources/Sync Setup Guide.md")
+        print("\nSee: /Users/username/Documents/ObsidianVault/Resources/Sync Setup Guide.md")
         return False
     return True
 

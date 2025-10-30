@@ -6,7 +6,7 @@ if [ -z "$1" ]; then
     echo "Usage: $0 <project-name>"
     echo ""
     echo "Available projects:"
-    ls -d /Users/mikefinneran/Documents/ObsidianVault/Projects/*/ | xargs -n 1 basename
+    ls -d /Users/username/Documents/ObsidianVault/Projects/*/ | xargs -n 1 basename
     echo ""
     echo "Example: $0 WalterSignal"
     exit 1
@@ -14,7 +14,7 @@ fi
 
 PROJECT_NAME="$1"
 DATE=$(date +%Y-%m-%d_%H-%M-%S)
-PROJECT_DIR="/Users/mikefinneran/Documents/ObsidianVault/Projects/${PROJECT_NAME}/screenshots"
+PROJECT_DIR="/Users/username/Documents/ObsidianVault/Projects/${PROJECT_NAME}/screenshots"
 FILENAME="${PROJECT_NAME}_${DATE}.png"
 
 # Create project screenshots directory

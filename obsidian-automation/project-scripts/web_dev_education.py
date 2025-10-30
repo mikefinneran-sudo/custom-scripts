@@ -4,7 +4,7 @@ Elite Web Development Education - Direct Approach
 """
 
 import sys
-sys.path.insert(0, '/Users/mikefinneran/Library/CloudStorage/GoogleDrive-mike.finneran@gmail.com/My Drive/Project Database/Current Projects/AI Projects')
+sys.path.insert(0, '/Users/username/Library/CloudStorage/GoogleDrive-email@domain.com/My Drive/Project Database/Current Projects/AI Projects')
 
 from ivy_league_educator import IvyLeagueEducator
 
@@ -447,7 +447,7 @@ project-website/
 """
 
 # Save the comprehensive brief
-output_path = '/Users/mikefinneran/Desktop/elite_web_dev_brief.md'
+output_path = '/Users/username/Desktop/elite_web_dev_brief.md'
 with open(output_path, 'w') as f:
     f.write(web_dev_brief)
 

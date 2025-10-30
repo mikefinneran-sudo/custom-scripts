@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # LifeHub - Documents Folder Full Sync to Google Drive
-# Syncs entire /Users/mikefinneran/Documents to Google Drive
+# Syncs entire /Users/username/Documents to Google Drive
 # Excludes: .DS_Store, symlinks to avoid recursion
 
 set -e  # Exit on error
 
 # Paths
-DOCS_PATH="/Users/mikefinneran/Documents"
+DOCS_PATH="/Users/username/Documents"
 GDRIVE_PATH="$HOME/Library/CloudStorage/GoogleDrive-mike.finneran@gmail.com/My Drive/Documents"
 LOG_FILE="$DOCS_PATH/ObsidianVault/.scripts/gdrive-docs-sync.log"
 

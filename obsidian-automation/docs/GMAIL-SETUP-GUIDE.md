@@ -53,7 +53,7 @@ pip3 install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 goo
 6. Name: **LifeHub Gmail**
 7. Click **"Create"**
 8. **Download JSON** file
-9. Save as: `/Users/mikefinneran/Documents/ObsidianVault/.scripts/credentials-gmail.json`
+9. Save as: `/Users/username/Documents/ObsidianVault/.scripts/credentials-gmail.json`
 
 ---
 
@@ -137,14 +137,14 @@ cat > ~/Library/LaunchAgents/com.lifehub.gmail-sync.plist << 'EOF'
     <key>ProgramArguments</key>
     <array>
         <string>python3</string>
-        <string>/Users/mikefinneran/Documents/ObsidianVault/.scripts/sync_gmail.py</string>
+        <string>/Users/username/Documents/ObsidianVault/.scripts/sync_gmail.py</string>
     </array>
     <key>StartInterval</key>
     <integer>7200</integer>
     <key>StandardOutPath</key>
-    <string>/Users/mikefinneran/Documents/ObsidianVault/.scripts/gmail-sync.log</string>
+    <string>/Users/username/Documents/ObsidianVault/.scripts/gmail-sync.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/mikefinneran/Documents/ObsidianVault/.scripts/gmail-sync-error.log</string>
+    <string>/Users/username/Documents/ObsidianVault/.scripts/gmail-sync-error.log</string>
 </dict>
 </plist>
 EOF

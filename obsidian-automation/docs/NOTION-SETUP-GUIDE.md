@@ -112,7 +112,7 @@ For EACH database:
 Edit the config file:
 
 ```bash
-nano /Users/mikefinneran/Documents/ObsidianVault/.scripts/notion-sync-config.json
+nano /Users/username/Documents/ObsidianVault/.scripts/notion-sync-config.json
 ```
 
 Update with your database IDs:
@@ -160,10 +160,10 @@ Update with your database IDs:
 
 ```bash
 # Test without actually syncing (dry run)
-python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/sync_to_notion.py --dry-run
+python3 /Users/username/Documents/ObsidianVault/.scripts/sync_to_notion.py --dry-run
 
 # If that looks good, do real sync
-python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/sync_to_notion.py
+python3 /Users/username/Documents/ObsidianVault/.scripts/sync_to_notion.py
 ```
 
 **Check Notion** - You should see your projects appear!
@@ -179,7 +179,7 @@ Add to crontab to run automatically:
 crontab -e
 
 # Add this line (sync every evening at 8 PM)
-0 20 * * * python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/sync_to_notion.py >> /Users/mikefinneran/Documents/ObsidianVault/.scripts/notion-sync-cron.log 2>&1
+0 20 * * * python3 /Users/username/Documents/ObsidianVault/.scripts/sync_to_notion.py >> /Users/username/Documents/ObsidianVault/.scripts/notion-sync-cron.log 2>&1
 ```
 
 Or create a LaunchAgent for more reliable scheduling.

@@ -14,7 +14,7 @@ Your daily note automation script is ready! Here are 3 ways to set it up:
 3. Search and install **"Shell commands"** plugin
 4. Enable the plugin
 5. In Shell commands settings:
-   - Add new shell command: `python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py`
+   - Add new shell command: `python3 /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py`
    - Set execution event: **"On startup"** (runs when vault opens)
    - Optional: Add to hotkey for manual trigger
 
@@ -28,7 +28,7 @@ Your daily note automation script is ready! Here are 3 ways to set it up:
 
 ### Run from Terminal:
 ```bash
-python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+python3 /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 ```
 
 **Result:** Updates today's daily note immediately
@@ -48,7 +48,7 @@ python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.p
 
 3. Add this line (runs at 6 AM daily):
    ```
-   0 6 * * * /usr/bin/python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.py
+   0 6 * * * /usr/bin/python3 /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
    ```
 
 4. Save and exit
@@ -107,7 +107,7 @@ To track additional projects, edit the `get_project_tasks()` function.
 
 **Want to reset?**
 ```bash
-rm /Users/mikefinneran/Documents/ObsidianVault/.scripts/daily_note_state.json
+rm /Users/username/Documents/ObsidianVault/.scripts/daily_note_state.json
 ```
 
 ---
@@ -121,7 +121,7 @@ The script uses `.scripts/daily_note_state.json` to:
 
 **View current state:**
 ```bash
-cat /Users/mikefinneran/Documents/ObsidianVault/.scripts/daily_note_state.json
+cat /Users/username/Documents/ObsidianVault/.scripts/daily_note_state.json
 ```
 
 ---

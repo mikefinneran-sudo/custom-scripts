@@ -55,7 +55,7 @@ python3 sync_calendar.py               # Sync calendar
 - **Open Vault** → `open-vault.sh`
 
 ### Project Scripts
-- **FlyFlat Updates** → `create_flyflat_update.sh`
+- **ClientProject Updates** → `create_client_update.sh`
 - **WalterSignal Education** → `waltersignal_education.py`
 - **Web Dev Education** → `web_dev_education.py`
 
@@ -73,7 +73,7 @@ python3 sync_calendar.py               # Sync calendar
   - `QUICK-SETUP.md` - 5-minute quick start
   - `DAILY_NOTE_AUTOMATION_SETUP.md` - Daily note automation
   - `NOTION-SETUP-GUIDE.md` - Notion integration
-  - `FLYFLAT-NOTION-SETUP.md` - FlyFlat Notion setup
+  - `CLIENT-NOTION-SETUP.md` - ClientProject Notion setup
   - `CALENDAR-SETUP-GUIDE.md` - Google Calendar
   - `GMAIL-SETUP-GUIDE.md` - Gmail integration
   - `SHELL-COMMANDS-SETUP-GUIDE.md` - Obsidian Shell Commands
@@ -214,7 +214,7 @@ pip3 install notion-client python-frontmatter google-auth-oauthlib google-api-py
 
 ## 🔗 External Links
 
-- **GitHub Repository:** https://github.com/mikefinneran-sudo/obsidian-vault
+- **GitHub Repository:** https://github.com/username-sudo/obsidian-vault
 - **Obsidian:** https://obsidian.md/
 - **1Password CLI:** https://developer.1password.com/docs/cli/
 - **Alfred:** https://www.alfredapp.com/
