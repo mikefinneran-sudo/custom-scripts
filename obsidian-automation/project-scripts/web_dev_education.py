@@ -292,7 +292,7 @@ web_dev_brief = f"""
 
 ---
 
-## 🏗️ RECOMMENDED ARCHITECTURE FOR WALTERSIGNAL.AI
+## 🏗️ RECOMMENDED ARCHITECTURE FOR MODERN WEB APPLICATIONS
 
 ### Tech Stack Decision: Next.js 14 + Tailwind + TypeScript
 
@@ -319,7 +319,7 @@ web_dev_brief = f"""
 
 ### File Structure
 ```
-waltersignal-ai/
+project-website/
 ├── app/
 │   ├── layout.tsx          # Root layout with metadata
 │   ├── page.tsx            # Landing page (/)
@@ -344,14 +344,14 @@ waltersignal-ai/
 ### Deployment Strategy
 1. **Development**: localhost:3000
 2. **Preview**: GitHub → Cloudflare Pages preview URL
-3. **Production**: waltersignal.ai via Cloudflare Pages
+3. **Production**: Custom domain via Cloudflare Pages
 
 **Cloudflare Pages Setup:**
 - Connect GitHub repo
 - Build command: `npm run build`
 - Output directory: `out` or `.next`
 - Environment variables: API keys
-- Custom domain: waltersignal.ai
+- Custom domain configuration
 - Auto-deploy on git push to main
 
 ---
@@ -438,7 +438,7 @@ waltersignal-ai/
 - ✅ SEO best practices understood
 - ✅ Deployment strategy proven
 
-**Ready to build a production-grade, elite-level website for WalterSignal.AI!**
+**Ready to build a production-grade, elite-level website!**
 
 ---
 
@@ -453,7 +453,7 @@ with open(output_path, 'w') as f:
 
 print(f"\n✅ Comprehensive Web Dev Brief saved to: {output_path}\n")
 print("="*100)
-print("🚀 EDUCATION COMPLETE - READY TO BUILD WALTERSIGNAL.AI")
+print("🚀 EDUCATION COMPLETE - READY TO BUILD")
 print("="*100)
 print("\n📖 Summary:")
 print("   - Education Level: Graduate (Master's)")

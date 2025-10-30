@@ -60,14 +60,14 @@ python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.p
 ## 📋 What the Script Does
 
 **Automatic Priority Detection:**
-- Checks which WalterSignal files exist
+- Checks which project files exist
 - Determines current project phase
 - Suggests next actions based on progress
 
 **Sections Updated:**
 - 🎯 Top 3 Priorities (dynamic based on project state)
 - 💰 Revenue Activities (customer outreach tasks)
-- 📊 Projects (WalterFetch progress + completed tasks)
+- 📊 Projects (Active project progress + completed tasks)
 - 💡 Ideas & Notes (current strategic insights)
 
 **Smart Logic:**
@@ -84,16 +84,12 @@ python3 /Users/mikefinneran/Documents/ObsidianVault/.scripts/update_daily_note.p
 Open: `.scripts/update_daily_note.py`
 
 **Key functions to customize:**
-- `get_waltersignal_priorities()` - Change top 3 priorities
+- `get_project_priorities()` - Change top 3 priorities
 - `get_revenue_activities()` - Modify revenue tasks
 - `get_project_tasks()` - Adjust project checklist
 
 ### Add More Projects:
-Currently tracks:
-- WalterFetch/WalterSignal
-- LifeHub
-
-To add more, edit the `get_project_tasks()` function.
+To track additional projects, edit the `get_project_tasks()` function.
 
 ---
 
