@@ -8,7 +8,7 @@ if [ -z "$1" ]; then
     echo "Available projects:"
     ls -d /Users/username/Documents/ObsidianVault/Projects/*/ | xargs -n 1 basename
     echo ""
-    echo "Example: $0 WalterSignal"
+    echo "Example: $0 ProjectX"
     exit 1
 fi
 

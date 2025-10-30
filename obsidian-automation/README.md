@@ -145,7 +145,7 @@ python3 update_metrics.py              # Update metrics interactively
 
 | Script | Description |
 |--------|-------------|
-| `waltersignal_education.py` | Education content automation for WalterSignal |
+| `waltersignal_education.py` | Education content automation for ProjectX |
 | `web_dev_education.py` | Web development education content generation |
 | `create-utm-vm.applescript` | AppleScript for creating UTM virtual machines |
 

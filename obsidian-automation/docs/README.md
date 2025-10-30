@@ -79,7 +79,7 @@ obs-daily  # Shell alias
 #### `update_daily_note.py`
 **Purpose:** Auto-updates daily notes with project priorities from external sources
 **Features:**
-- Fetches priorities from WalterSignal projects
+- Fetches priorities from ProjectX projects
 - Smart detection of current project phase
 - Updates revenue activities and tasks
 - Can run on vault open or manual trigger
@@ -391,7 +391,7 @@ python3 oauth_server.py
 ---
 
 #### `waltersignal_education.py`
-**Purpose:** Education content automation for WalterSignal project
+**Purpose:** Education content automation for ProjectX project
 **Location:** `.scripts/waltersignal_education.py:1`
 
 ---

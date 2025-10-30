@@ -1,7 +1,7 @@
 # Shell Commands Plugin Setup Guide
 ## Auto-Update Daily Notes on Vault Open
 
-**Goal:** Automatically populate your daily note with WalterSignal priorities every time you open Obsidian
+**Goal:** Automatically populate your daily note with ProjectX priorities every time you open Obsidian
 
 **Time:** 5 minutes
 
@@ -125,7 +125,7 @@
 
 **Every time you open Obsidian:**
 1. Shell Commands plugin runs automatically
-2. Python script checks which WalterSignal files exist
+2. Python script checks which ProjectX files exist
 3. Determines current project phase
 4. Populates daily note with relevant priorities
 5. Updates revenue activities and project tasks
@@ -250,7 +250,7 @@ nano /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 ### Add More Projects
 
 Currently tracks:
-- WalterSignal/WalterFetch
+- ProjectX/WalterFetch
 - LifeHub
 
 To add ClientProject or other projects, edit `get_project_tasks()` function.

@@ -240,7 +240,7 @@ perplexity_compare(
 
 ---
 
-## Use Cases for WalterSignal
+## Use Cases for ProjectX
 
 ### Market Research
 ```
@@ -359,7 +359,7 @@ Get only recent results:
 
 ## Examples in Practice
 
-### WalterSignal Use Case 1: Market Sizing
+### ProjectX Use Case 1: Market Sizing
 
 **Request:**
 ```
@@ -372,7 +372,7 @@ How big is the total addressable market for PE deal sourcing software? Use Perpl
 - Returns estimate with sources cited
 - Saves hours vs. manual research
 
-### WalterSignal Use Case 2: Competitive Analysis
+### ProjectX Use Case 2: Competitive Analysis
 
 **Request:**
 ```
@@ -385,7 +385,7 @@ Do deep research on CapIQ vs PitchBook: pricing, features, PE firm satisfaction,
 - Recent user reviews included
 - Actionable competitive intelligence
 
-### WalterSignal Use Case 3: Customer Research
+### ProjectX Use Case 3: Customer Research
 
 **Request:**
 ```

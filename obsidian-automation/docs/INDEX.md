@@ -56,7 +56,7 @@ python3 sync_calendar.py               # Sync calendar
 
 ### Project Scripts
 - **ClientProject Updates** → `create_client_update.sh`
-- **WalterSignal Education** → `waltersignal_education.py`
+- **ProjectX Education** → `waltersignal_education.py`
 - **Web Dev Education** → `web_dev_education.py`
 
 ### macOS Automation
