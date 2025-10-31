@@ -235,7 +235,7 @@ MIT License - Free to use and modify
 - `sync-documents-to-gdrive.sh` - Backup to Google Drive
 
 **Project Scripts (3 scripts)**
-- `waltersignal_education.py` - ProjectX automation
+- `project_education.py` - ProjectX automation
 - `web_dev_education.py` - Web dev content generation
 - `create-utm-vm.applescript` - Create UTM VMs
 

@@ -243,14 +243,14 @@ nano /Users/username/Documents/ObsidianVault/.scripts/update_daily_note.py
 ```
 
 **Key functions to customize:**
-- `get_waltersignal_priorities()` - Top 3 priorities
+- `get_project_priorities()` - Top 3 priorities
 - `get_revenue_activities()` - Revenue tasks
 - `get_project_tasks()` - Project checklist
 
 ### Add More Projects
 
 Currently tracks:
-- ProjectX/WalterFetch
+- ProjectX/ProjectData
 - LifeHub
 
 To add ClientProject or other projects, edit `get_project_tasks()` function.

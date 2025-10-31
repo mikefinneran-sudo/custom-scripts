@@ -12,7 +12,7 @@ from pathlib import Path
 VAULT_PATH = Path.home() / "Documents" / "ObsidianVault"
 REVENUE_FILE = VAULT_PATH / "Resources" / "Revenue Goals.md"
 DASHBOARD_FILE = VAULT_PATH / "Dashboard.md"
-WALTERFETCH_FILE = VAULT_PATH / "Projects" / "WalterFetch.md"
+PROJECTDATA_FILE = VAULT_PATH / "Projects" / "ProjectData.md"
 
 def update_revenue_metrics(mrr=0, customers=0, notes=""):
     """Update revenue tracking table"""

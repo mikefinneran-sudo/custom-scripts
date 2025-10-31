@@ -390,9 +390,9 @@ python3 oauth_server.py
 
 ---
 
-#### `waltersignal_education.py`
+#### `project_education.py`
 **Purpose:** Education content automation for ProjectX project
-**Location:** `.scripts/waltersignal_education.py:1`
+**Location:** `.scripts/project_education.py:1`
 
 ---
 

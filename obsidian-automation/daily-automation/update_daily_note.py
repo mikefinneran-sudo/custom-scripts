@@ -20,25 +20,25 @@ def get_today_note_path():
     today = datetime.now().strftime("%Y-%m-%d")
     return DAILY_PATH / f"{today}.md"
 
-def get_waltersignal_priorities():
+def get_project_priorities():
     """Extract current priorities from WalterSignal project files"""
     priorities = []
 
     # Check for recent project files
     recent_files = [
-        "waltersignal_pitch_deck_slides.md",
-        "waltersignal_pitch_deck_plan.md",
+        "project_pitch_deck_slides.md",
+        "project_pitch_deck_plan.md",
         "great_range_outreach_email.md",
-        "waltersignal_pe_strategy.md",
-        "waltersignal_target_customers.md"
+        "project_pe_strategy.md",
+        "project_target_customers.md"
     ]
 
     # Determine current phase based on what exists
-    deck_slides_exists = (PROJECTS_PATH / "waltersignal_pitch_deck_slides.md").exists()
+    deck_slides_exists = (PROJECTS_PATH / "project_pitch_deck_slides.md").exists()
     outreach_exists = (PROJECTS_PATH / "great_range_outreach_email.md").exists()
 
     if deck_slides_exists and not is_deck_designed():
-        priorities.append("[ ] Review [[waltersignal_pitch_deck_slides]] - 17-slide customer deck")
+        priorities.append("[ ] Review [[project_pitch_deck_slides]] - 17-slide customer deck")
         priorities.append("[ ] Design pitch deck visuals (Gamma.app or Google Slides)")
         priorities.append("[ ] Prepare Great Range Capital outreach")
     elif outreach_exists:
@@ -67,7 +67,7 @@ def get_project_tasks():
     pending = []
 
     # Check what's been completed today
-    if (PROJECTS_PATH / "waltersignal_pitch_deck_slides.md").exists():
+    if (PROJECTS_PATH / "project_pitch_deck_slides.md").exists():
         completed.append("[x] ✅ Complete pitch deck content (17 slides, case studies)")
 
     if (VAULT_PATH / ".git").exists():
@@ -118,7 +118,7 @@ def update_daily_note():
         return
 
     # Get current priorities and tasks
-    priorities = get_waltersignal_priorities()
+    priorities = get_project_priorities()
     revenue_activities = get_revenue_activities()
     completed, pending = get_project_tasks()
 
@@ -129,7 +129,7 @@ def update_daily_note():
 
     projects_section = (
         "## 📊 Projects\n\n"
-        "### WalterFetch\n" +
+        "### ProjectData\n" +
         "\n".join(completed + pending) +
         "\n\n### Other Projects\n"
         "- [ ] LifeHub: Review user guide and FAQ for updates"
@@ -205,7 +205,7 @@ def create_daily_note_from_template(note_path):
 
 ## 📊 Projects
 
-### WalterFetch
+### ProjectData
 - [ ]
 
 ### Other Projects
