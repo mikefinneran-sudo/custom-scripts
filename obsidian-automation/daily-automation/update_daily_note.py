@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WalterSignal Daily Note Auto-Updater
+Project Daily Note Auto-Updater
 Automatically populates daily notes with project priorities and tasks
 """
 
@@ -21,7 +21,7 @@ def get_today_note_path():
     return DAILY_PATH / f"{today}.md"
 
 def get_project_priorities():
-    """Extract current priorities from WalterSignal project files"""
+    """Extract current priorities from project files"""
     priorities = []
 
     # Check for recent project files
@@ -46,7 +46,7 @@ def get_project_priorities():
         priorities.append("[ ] Prepare 10-target sample for demo")
         priorities.append("[ ] Schedule follow-up calls")
     else:
-        priorities.append("[ ] Continue WalterSignal development")
+        priorities.append("[ ] Continue project development")
         priorities.append("[ ] Review project documentation")
         priorities.append("[ ] Plan next steps")
 

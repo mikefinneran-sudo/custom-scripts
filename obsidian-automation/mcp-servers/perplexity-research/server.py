@@ -117,7 +117,7 @@ class PerplexityMCP:
                                 "type": "array",
                                 "items": {"type": "string"},
                                 "minItems": 2,
-                                "description": "List of entities to compare (e.g., ['CapIQ', 'PitchBook', 'WalterSignal'])"
+                                "description": "List of entities to compare (e.g., ['CapIQ', 'PitchBook', 'CompanyC'])"
                             },
                             "comparison_criteria": {
                                 "type": "array",
